@@ -1,0 +1,1575 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto Serif', serif;
+}
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* nav bar section */
+
+ #navbar {
+    width: 100%;
+    height: 80px;
+}
+#seconddiv {
+    width: 99%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#navbar #samsunglogo {
+    width: 100px;
+    height: 100px;
+    padding-right: 45px;
+    padding-left: 20px;
+}
+#bothdiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#navbar #navdiv2 {
+    margin-right: 10px;
+}
+#navbar #navdiv1 a {
+    font-size: 14px;
+    padding: 4px;
+    color: black;
+    font-weight:550;
+}
+#navbar #navdiv2 a {
+    font-size: 14px;
+    padding: 10px;
+    color: black;
+    font-weight:550;
+}
+#navbar .search-user {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+/* top background pic index page */
+#banner {
+    background-image: url(image1/hero.jpg);
+    height: 607px;
+    background-size: 100% 100%;
+}
+
+#banner #banner-text {
+    display: block;
+    padding-top: 200px;
+}
+
+#banner #banner-text h2 {
+    color:  white;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    font-size: 50px;
+    font-weight:bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#banner #banner-text p {
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 80px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 8px;
+    font-weight: 550;
+}
+
+#banner #banner-text p a{
+    color: black;
+}
+
+/* Mobile section */
+.mobile {
+    margin: 15px;
+    text-align: center;
+}
+
+.mobile2 {
+    width:50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10px;
+}
+
+#galaxy-s21{
+   display: flex;
+   justify-content: center;
+   height: 418px;
+   margin-bottom: 20px;
+}
+
+.mobile2 p {
+    font-size: 5px;
+}
+
+.mobile2 h3 a {
+    color: black;
+}
+
+.mobile2 h3 a:focus {
+    text-decoration: underline;
+}
+
+.mobileb2 {
+    width:50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10px;
+}
+
+.mobile2b {
+    display: block;
+    text-align: center;
+}
+
+.mobile2b p {
+    margin: 8px 0;
+    width: 100%;
+}
+
+.mobile2b p a {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 80px;
+    padding:5px 20px;
+}
+
+
+/* TV & AV section */
+
+#banner2 {
+    background-image: url("image1/TV_HOME.jpg");
+    height: 810px;
+    background-size: 100% 100%;
+    margin: 80px 0;
+}
+
+#banner2 #banner2a {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+#banner2 #banner2ai {
+    display:flex;
+    justify-content: space-evenly;
+    width:50%;
+    font-size:15px ;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#banner2 #banner2ai h4 a {
+    color: white;
+}
+
+#banner2 #banner2ai h4 a:focus {
+    text-decoration: underline;
+}
+
+#banner2 #banner2b {
+    display: block;
+    text-align: center;
+    padding-top: 550px;
+    color: white;
+}
+
+#banner2 #banner2b h1 {
+    font-size: 50px;
+}
+
+#banner2 #banner2bi {
+    width: 20%;
+    display: flex;
+    justify-content:space-evenly ;
+    margin:19px auto ;
+}
+
+#banner2 #banner2bi p #pi{
+    color: white;
+}
+
+#banner2 #banner2bi p #pi:focus{
+    color: white;
+    text-decoration: underline;
+}
+
+#banner2 #banner2bi p #pii{
+    background-color: white;
+    border-radius: 80px;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+}
+
+
+/* Home Appliances section */
+#banner3 {
+    background-image: url("image1/home_appliances.png");
+    height: 810px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 80px 0;
+}
+
+#banner3 #banner3a {
+    display: block;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+
+#banner3 #banner3a #banner3ai {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 23px auto;
+}
+
+#banner3 #banner3a #banner3ai h4 a {
+    color: white;
+}
+
+#banner3 #banner3a #banner3ai h4 a:focus {
+    text-decoration: underline;
+}
+
+#banner3b{
+    text-align: center;
+    padding-top: 470px;
+    color:white;
+}
+
+#banner3b h1 {
+    font-size: 50px;
+}
+
+#banner3b p {
+    margin: 15px 0;
+}
+
+#banner3b a {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* This Months picks section */
+#text h1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#text #text2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    margin: 10px auto;
+}
+
+#text #text2 h4 a{
+    color: black;
+}
+
+#text #text2 h4 a:focus {
+    text-decoration: underline;
+}
+
+
+/* Galaxy s21 FE 5G sction */
+.index-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.index-flexa {
+    width:684px;
+    height: 615px;
+    background-image: url("image1/PCD_Galaxy-S21-FE.png");
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.index-flexa h1 {
+    color:black;
+    text-align: center;
+    margin-top: 480px;
+    padding: 30px 0;    
+}
+
+.index-flexa p {
+    color:black;
+    text-align: center;
+    width: 400px;
+    margin: 5px auto;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.index-flexb {
+    width:330px ;
+    height: 300px;
+    margin-right: 7px;
+}
+
+.index-flexc {
+    width:330px ;
+    height: 300px; 
+}
+
+.index-flexb #galaxyzfold {
+    width: 300px;
+    height: 300px;
+    background-image: url("image1/galaxy_z_fold3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px 150px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    margin:11px 0;
+}
+
+.index-flexb #galaxyzfold h1 {
+    color:black;
+    text-align: center;
+    padding-top: 240px;
+    font-size: 17px; 
+}
+
+#galaxywatch4 {
+    background-image: url("image1/galaxy_watch4.png");
+    width: 300px;
+    height:300px;
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    background-position:center center;
+}
+
+#galaxywatch4 h1 {
+    color: black;
+    font-size:17px ;
+    text-align: center;
+    padding-top: 240px;
+}
+
+#galaxywatch4 p {
+    color:black;
+    text-align: center;
+    margin: 10px auto;
+    font-weight: lighter;
+    font-size: small;
+}
+
+#galaxyflip3 {
+    background-image: url("image1/galaxy_z_flip3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    margin: 11px 0;
+}
+
+#galaxyflip3 h1 {
+    color:black;
+    text-align: center;
+    padding-top: 240px;
+    font-size: 17px;
+}
+
+#galaxybuds {
+    background-image: url("image1/galaxy_buds2.jpg");
+    width: 300px;
+    height:300px;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    background-position:center center;
+}
+
+#galaxybuds h1  {
+    color: black;
+    font-size:19px ;
+    text-align: center;
+    padding-top: 240px;
+}
+
+.index-flex h1 a {
+    color: black;
+}
+
+
+/* Explore section */
+#explore h1 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+#explorediv {
+    display: flex;
+    justify-content:space-between
+}
+
+#explorediv #exploreimg {
+    width: 50%;
+    height: 500px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#explorediv #exploreimg img {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    padding-top: 300px;
+}
+
+#explorediv #exploreimg > hr {
+    border: 10px solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 10px;    
+}
+
+#explorediv #exploredivtext {
+    width: 50%;
+    height: 250px;
+    margin: 20px;
+    padding-top:50px ;
+    border-radius: 20px;
+}
+
+#explorediv #exploredivtext ol {
+    padding-left:50px ;
+}
+
+#explorediv #exploredivtext ol li{
+    font-size: larger;
+    font-weight: 550;
+    margin: 28px 0;
+}
+
+#explorediv #exploredivtext li p {
+    font-weight: 300;
+    font-size:x-small;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
+#explorediv #exploredivtext li p a {
+    color: black;
+}
+
+#explorediv #exploredivtext > hr {
+    margin-top: 20px;
+    border:0.5px solid black;
+    width: 100%;
+}
+
+/* Looking for something else section */
+#looking {
+    text-align: center;
+}
+
+#looking > h1 {
+    margin: 60px 0 20px 0;
+}
+
+#looking input {
+    width: 300px;
+    height: 30px;
+    border:1px solid black;
+    border-radius: 20px;
+    background-image:url("image1/search.png") ;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    background-position: 2%;
+}
+
+#pflex {
+    width:40%;
+    display:inline-flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#pflex > p{
+    text-align: center;
+    font-size: smaller; border: 1px solid black;
+    border-radius:20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#pflex p a {
+    color: black;
+}
+
+#pflex2 {
+    display:inline-flex;
+}
+
+#pflex2 > p {
+    padding: 5px;
+    font-size: smaller;
+    border: 1px solid black;
+    border-radius:20px;
+    margin: 5px;
+}
+
+#pflex2 p a {
+    color: black;
+}
+
+#bottomlist ul li {
+    margin: 14px 0px 25px 60px;
+}
+
+#productdiv {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+#productdiv .innerproduct {
+    width: 100%;
+    height: 600px;
+    padding:0 20px;
+    border: 1px solid whitesmoke;
+}
+
+#productdiv .innerproduct h4 {
+    margin: 20px 0;
+    font-weight: 550;
+}
+
+#productdiv .innerproduct p {
+    margin: 10px 0;
+    font-size: x-small;
+}
+
+#productdiv .innerproduct p a {
+    color: black;
+}
+
+/* index footer section */
+.footer-p {
+    font-size:x-small;
+    margin-bottom: 10px;
+}
+
+#footerdiv {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid whitesmoke;
+}
+
+#h4-p {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: small;
+    padding: 10px;
+}
+
+#footerdiv #h4-p h4 {
+    margin: 0 5px;
+    font-size: small;
+}
+
+#footerdiv #h4-p hr {
+    height: 10px;
+}
+
+#footerdiv #h4-p p {
+    margin: 0 5px;
+    font-size: small;
+}
+
+#footerdiv #footerimage {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+#footerdiv #footerimage p {
+    margin: 0 10px;
+    font-size: x-small;
+}
+
+#footerdiv #footerimage img {
+    width: 20px;
+    height: 15px;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* EXPLORE PAGE */
+
+/* explore page second nav bar */
+#headdiv {
+    width: 100%;
+    height: 10px;
+    margin-bottom: 10px;
+}
+#secondheaddiv {
+    display: flex;
+    justify-content: space-between;
+}
+#secondheaddiv #headh4 {
+    padding-left: 30px;
+    font-size: small;
+}
+
+#secondheaddiv #headh4 h4 a {
+    color: black;
+}
+
+#secondheaddiv #headh4 h4 a:focus {
+    text-decoration: underline;
+}
+
+#secondheaddiv #innerheaddiv {
+    display: flex;
+    justify-content: space-evenly;
+} 
+#secondheaddiv #innerheaddiv p {
+    margin: 0 40px;
+    font-size: x-small;
+}
+
+#secondheaddiv #innerheaddiv p a {
+    color: black;
+}
+
+#secondheaddiv #innerheaddiv p a:focus {
+    text-decoration: underline;
+}
+
+
+/* Top background picture Explore page */
+
+#explorebanner {
+    background-image: url("image2/hero.jpg");
+    height: 507px;
+    background-size: 100% 100%;
+    margin: 20px 0;
+}
+
+#explorebanner #explorebanner-text {
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#explorebanner #explorebanner-text h2 {
+    padding: 20px 0;
+    font-size: 2.5rem;
+}
+
+#explorebanner #explorebanner-text p {
+    font-size: small;
+    font-weight: lighter;
+}
+
+#explorebanner #explorebanner-text p a {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+}
+
+#explorebanner #explorebanner-text #p-a {
+    margin-top: 40px;
+}
+
+/* left and right symbol section */
+#symbols {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* flex 1 section */
+#flex1 {
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fleximga {
+    width: 100%;
+    height: 220px;
+    border-radius: 20px;
+}
+
+.fleximgb {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.fleximgc {
+    border-radius: 20px;
+    width: 100%;
+    height:280px ;
+}
+
+.top-p {
+    font-weight: lighter;
+    font-size: x-small;
+    margin: 10px;
+}
+
+#flex1 p a {
+    color: black;
+}
+
+.flex-h4 {
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+
+.flex-h4-c {
+    font-size: 2rem;
+    font-weight: 550;
+    margin: 20px 0;
+}
+
+#innerflex1a .bottom-p {
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+#innerflex1b .bottom-p-b p {
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+#innerflex1c .bottom-p {
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.bottom-p-b {
+    width: 240px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+    font-size: x-small;
+}
+
+.bottom-p {
+    margin: 10px 0;
+    font-size: x-small;
+}
+
+
+/* flex 2 section */
+#flex2 {
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#innerflex2b {
+    margin: 60px 0;
+}
+
+#innerflex2c {
+    margin-top: 120px;
+}
+
+#flex2 p a {
+    color: black;
+}
+
+.bottom-p-b p {
+    display: inline-block;
+    padding: 3px;
+    margin-top: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+#innerflex2b p {
+    margin-top: 10px;
+}
+
+
+/* flex 3 section */
+#flex3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#flex3 p a {
+    color: black;
+}
+
+#flex3 #innerflex3a {
+    margin-top: 60px;
+}
+
+#flex3 #innerflex3b {
+    margin-top: 130px;
+}
+
+#flex3 #innerflex3c {
+    margin-top: 200px;
+}
+
+/* view section */
+#view {
+    display: block;
+    text-align: center;
+}
+
+#view p {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#view p a {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 3px;
+    color: black;
+}
+
+#searchbar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#searchbar input {
+    width: 400px;
+    height: 30px;
+    border:1px solid black;
+    border-radius: 20px;
+    background-image:url("image1/search.png") ;
+    background-size: 15px;
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    background-position: 2%;
+}
+
+.search-p {
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.search-p p {
+    font-size: x-small;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.search-p p a {
+    color: black;
+}
+
+#bigh1 {
+    width: 350px;
+    font-size: 1.2rem;
+    margin: 0 auto;
+}
+
+#bigh1 h1 {
+    text-align: center;
+    margin-left: 15px;
+}
+
+#bestpic {
+    display: flex;
+    justify-content: space-evenly;
+}
+.bestpic1 img {
+    width:410px;
+    height: 410px;
+    margin: 2px 0;
+}
+
+/* see more section */
+#see-more {
+    display: block;
+    text-align: center;
+}
+#see-more p {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+#see-more p a {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 3px;
+    color: black;
+}
+#homespan p {
+    margin: 12px 0;
+    font-size: small;
+    font-weight:lighter ;
+}
+#homespan p span {
+    color: gray;
+}
+#homespan hr {
+    color: whitesmoke;
+    background-color: whitesmoke;
+}
+
+/* consumer page */
+
+#consumerbanner {
+    background-image: url(image3/hero.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 607px;
+}
+
+#consumerbanner-text  {
+    padding-left:80px;
+    padding-top: 200px;
+}
+
+#consumerbanner-text h1  {
+    color: white;
+    font-weight: 550;
+}
+
+#consumerbanner-text p {
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 6px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+#consumerbanner-text p a {
+    color: black;
+}
+
+
+/* mobile section */
+.mobilec {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.mobile-c {
+    width:260px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10px;
+}
+
+.mobile-c h3 a {
+    color: black;
+}
+
+.mobile-c h3 a:focus {
+    text-decoration: underline;
+}
+
+/* Flex 1 section */
+.c-flex1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.c-flex1a {
+    width:684px;
+    height: 615px;
+    background-image: url("image3/mobile_for_business.jpg");
+    background-size: contain;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.c-flex1a h1 {
+    color:white;
+    text-align: center;
+    margin-top: 500px;
+    padding: 10px 0;    
+}
+
+.c-flex1a h1 a {
+    color: white;
+}
+
+.c-flex1a p {
+    color:white;
+    text-align: center;
+}
+
+.c-flex1b {
+    width:330px ;
+    height: 300px;
+    margin-right: 7px;
+}
+
+.c-flex1c {
+    width:330px ;
+    height: 300px; 
+}
+
+.c-flex1b #whysamsung {
+    width: 300px;
+    height: 300px;
+    background-image: url("image3/why_samsung_for_mobile.png");
+    border-radius: 30px;
+    background-color: whitesmoke;
+    margin:11px 0;
+}
+
+.c-flex1b #whysamsung h1 {
+    color:white;
+    text-align: center;
+    padding-top: 220px;
+    font-size: 17px; 
+}
+ 
+.c-flex1b #whysamsung h1 a {
+    color: white;
+}
+
+#whysamsung p {
+    color: white;
+    text-align: center;
+    font-size: smaller;
+    padding-top: 15px;
+}
+
+#galaxyzfold {
+    background-image: url("image3/HOME_Galaxy_Z_Fold3.png");
+    width: 300px;
+    height:300px;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    background-position:center 30px;
+}
+
+#galaxyzfold h1 {
+    color: black;
+    font-size:17px ;
+    text-align: center;
+    padding-top: 250px;
+}
+
+#galaxyzfold h1 a {
+    color: black;
+}
+
+#galaxyzfold p {
+    color: black;
+    text-align: center;
+    font-size: smaller;
+    padding-top: 10px;
+}
+#samsungknox {
+    background-image: url("image3/samsung_knox.png");
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    margin: 11px 0;
+}
+#samsungknox h1 {
+    color:white;
+    text-align: center;
+    padding-top: 220px;
+    font-size: 17px;
+}
+
+#samsungknox h1 a {
+    color: white;
+}
+
+#samsungknox p {
+    color: white;
+    text-align: center;
+    font-size: smaller;
+    padding-top: 15px;
+}
+#samsungdex {
+    background-image: url("image3/samsung_dex.jpg ");
+    width: 300px;
+    height:300px;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    background-position:center 20px;
+}
+#samsungdex h1  {
+    color: black;
+    font-size:19px ;
+    text-align: center;
+    padding-top: 245px;
+}
+
+#samsungdex h1 a {
+    color: black;
+}
+
+
+/* flex2 */
+
+.c-flex2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.c-flex2 h1 a {
+    color: black;
+}
+
+.c-flex2a {
+    width:684px;
+    height: 615px;
+    background-image: url("image3/display_for_business.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.c-flex2a h1 {
+    color:black;
+    text-align: center;
+    margin-top: 500px;
+    padding: 10px 0;    
+}
+
+.c-flex2a p {
+    color:black;
+    text-align: center;
+}
+
+.c-flex2b {
+    width:330px ;
+    height: 300px;
+    margin-right: 7px;
+}
+
+.c-flex2c {
+    width:330px ;
+    height: 300px; 
+}
+
+.c-flex2b #smartsignage {
+    width: 300px;
+    height: 300px;
+    background-image: url("image3/commercial_tvs.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    margin:11px 0;
+}
+
+.c-flex2b #smartsignage h1 {
+    color:black;
+    text-align: center;
+    padding-top: 220px;
+    font-size: 17px; 
+}
+
+#smartsignage p {
+    color: black;
+    text-align: center;
+    font-size: smaller;
+    padding-top: 15px;
+}
+
+#ledsignage {
+    background-image: url("image3/led_signage.png");
+    width: 300px;
+    height:300px;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    background-position:center center;
+}
+
+#ledsignage h1 {
+    color: black;
+    font-size:17px ;
+    text-align: center;
+    padding-top: 230px;
+}
+
+#ledsignage p {
+    color: black;
+    text-align: center;
+    font-size: smaller;
+    padding-top: 15px;
+}
+
+#commercialtv {
+    background-image: url("image3/commercial_tvs.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    margin: 11px 0;
+}
+
+#commercialtv h1 {
+    color:black;
+    text-align: center;
+    padding-top: 220px;
+    font-size: 17px;
+}
+
+#commercialtv p {
+    color: black;
+    text-align: center;
+    font-size: smaller;
+    padding-top: 15px;
+}
+
+#monitors {
+    background-image: url("image3/monitors.png ");
+    width: 300px;
+    height:300px;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    background-position:center center;
+}
+
+#monitors h1  {
+    color: black;
+    font-size:19px ;
+    text-align: center;
+    padding-top: 240px;
+}
+
+#monitors p {
+    color: black;
+    text-align: center;
+    font-size: smaller;
+    padding-top: 10px;
+}
+
+
+/* flex3 */
+
+.c-flex3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.c-flex3 h1 a{
+    color: black;
+}
+
+.c-flex3a {
+    width:684px;
+    height: 615px;
+    background-image: url("image3/climate_solutions.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.c-flex3a h1 {
+    color:white;
+    text-align: center;
+    margin-top: 480px;
+    padding: 10px 0;    
+}
+
+.c-flex3a h1 a {
+    color: white;
+}
+
+.c-flex3a p {
+    color:white;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.c-flex3b {
+    width:330px ;
+    height: 300px;
+    margin-right: 7px;
+}
+
+.c-flex3c {
+    width:330px ;
+    height: 300px; 
+}
+
+.c-flex3b #windfree {
+    width: 300px;
+    height: 300px;
+    background-image: url("image3/windfree_wallmounted.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    margin:11px 0;
+}
+
+.c-flex3b #windfree h1 {
+    color:black;
+    text-align: center;
+    padding-top: 230px;
+    font-size: 17px; 
+}
+
+#windfree1way {
+    background-image: url("image3/windfree_1way.png");
+    width: 300px;
+    height:300px;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    background-position:center center;
+}
+
+#windfree1way h1 {
+    color: black;
+    font-size:17px ;
+    text-align: center;
+    padding-top: 230px;
+}
+
+#windfree4way {
+    background-image: url("image3/windfree_4way.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    margin: 11px 0;
+}
+
+#windfree4way h1 {
+    color:black;
+    text-align: center;
+    padding-top: 240px;
+    font-size: 17px;
+}
+
+#cassette {
+    background-image: url("image3/360_cassette.png ");
+    width: 300px;
+    height:300px;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    background-position:center center;
+}
+
+#cassette h1  {
+    color: black;
+    font-size:19px ;
+    text-align: center;
+    padding-top: 250px;
+}
+
+/* looking for somthing else section */
+#textc h1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.search-p2 {
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    
+}
+.search-p2 p {
+    font-size: x-small;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.search-p2 p a, .search-p2i p a {
+    color: black;
+}
+
+.search-p2i {
+    width: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px auto;
+    
+}
+.search-p2i p {
+    font-size: x-small;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#request-flex {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+
+#request-flex p a {
+    color:white;
+}
+
+#sales {
+    width: 100%;
+    background-image: url("image3/sales_enquiries.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-left: 100px;
+}
+#sales h1 {
+    font-family:sans-serif;
+    font-size:25px ;
+}
+#sales p {
+    margin: 20px 0;
+    width: 300px;
+    font-size: small;
+}
+#technical {
+    width: 100%;
+    background-image: url("image3/technical_support.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-left: 100px;
+}
+
+#technical h1 {
+    font-family:sans-serif;
+    font-size:25px ;
+}
+#technical p {
+    margin: 20px 0;
+    width: 300px;
+    font-size: small;
+}
+.request {
+    display: inline;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row{width: 100%; display: flex; justify-content: space-evenly;}
+.col-1{width: 8.33%; background-color:red; height:100px;}
+.col-2{width: 16.6%; ; height:100px; }
+.col-3{width: 25%;  height:550px;}
+.col-4{width: 33.33%;  height: 550px;}
+.col-5{width: 41.66%;  height:400px;}
+.col-6{width: 50%;  height:400px;}
+.col-7{width: 58.3%; background-color:purple; height:100px;}
+.col-8{width: 66.64%; background-color:maroon; height:100px;}
+.col-9{width: 75%; background-color:pink; height:550px;}
+.col-10{width: 83.33%; background-color:peru; height:100px;}
+.col-11{width: 91.66%; background-color:brown; height:100px;}
+.col-12{width: 100%; background-color:magenta; height:100px;}
+ 
